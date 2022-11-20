@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Task21 {
 
     void congratulationMessage(){
-        System.out.println("\033[4mДомашнее задание - 1\nЗадание 1\033[0m \nВедите Ваш возраст: ");
+        System.out.println("\033[4mДомашнее задание - 2\nЗадание 1\033[0m \nВедите Ваш возраст: ");
         Scanner ageScan = new Scanner(System.in);
 
         while(!ageScan.hasNextByte()){
